@@ -10,6 +10,8 @@ Which names defined in the namespaces for bounded integers are also defined in a
 namespace? These might be good candidates for a `protected` annotation.
 -/
 
+namespace ProtectedCandidates
+
 open Lean
 
 def boundedIntNamespaces : NameSet :=

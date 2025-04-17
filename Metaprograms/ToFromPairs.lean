@@ -10,6 +10,8 @@ For which ordered pairs of types `(X, Y)` does there exist a `X.toY` function, a
 or both?
 -/
 
+namespace ToFromPairs
+
 open Lean Meta
 
 def blub : MetaM Unit := do

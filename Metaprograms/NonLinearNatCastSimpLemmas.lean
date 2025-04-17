@@ -10,6 +10,8 @@ import Std
 Which `simp` lemmas contain both `Nat.cast n` and `n` on the LHS?
 -/
 
+namespace NonLinearNatCastSimpLemmas
+
 open Lean Meta
 
 def isSimpTheorem (name : Name) : MetaM Bool := do
